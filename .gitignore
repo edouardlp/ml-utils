@@ -1,0 +1,15 @@
+*.DS_Store
+*.pyc
+
+# test-related
+.coverage
+.cache
+.pytest_cache
+.eggs
+
+# developer environments
+.idea
+.vscode
+
+#virtualenv
+/venv/
