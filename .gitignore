@@ -13,3 +13,6 @@
 
 #virtualenv
 /venv/
+example.py
+test.csv
+train.csv

@@ -8,7 +8,7 @@ DESCRIPTION = 'ml-utils is a simple collection of utilities that are convenient 
 URL = 'https://github.com/edouard_lp/mlutils'
 EMAIL = 'ed@laveryplante.com'
 AUTHOR = 'Édouard Lavery-Plante'
-REQUIRES_PYTHON = '>=3.6.0'
+REQUIRES_PYTHON = '>=2.7.0'
 LICENSE = 'MIT'
 VERSION = '0.1.0'
 CLASSIFIERS = [

@@ -26,7 +26,8 @@ class SerialTransformer(BaseEstimator, TransformerMixin):
     def fit(self, X, y):
         result_X = X
         for transformer in self.transformers[:-1]:
-            result_X = transformer.fit_transform(result_X,y)
+            transformer.fit(result_X, y)
+            result_X = transformer.transform(result_X)
         last = self.transformers[-1]
         return last.fit(result_X, y)
 
